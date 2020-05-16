@@ -107,3 +107,8 @@ let b:undo_ftplugin .= " | delcommand JuliaDoc | delcommand JuliaDocKeywordprg"
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
+
+" added by jd
+set tabstop=4 
+set shiftwidth=4
+set expandtab
